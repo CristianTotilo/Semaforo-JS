@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo en JS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+    <h3 id="modo" class="centrar">MODO MANUAL</h3>
+
+    <div class="caja-semaforo">
+        <div class="luz-semaforo" id="red"></div>
+        <div class="luz-semaforo" id="yellow"></div>
+        <div class="luz-semaforo" id="green"></div>
+    </div>
+
+    <div class="centrar">
+        <button onclick="cambiarSemaforoBoton()">Cambiar Estado semáforo</button>
+    </div>
+
+    <div class="centrar">
+        <button onclick="cambiarModoSemaforo()">Cambiar Modo semáforo</button>
+    </div>
+
+</body>
+</html>
